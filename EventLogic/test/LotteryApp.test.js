@@ -1,6 +1,6 @@
 import { shallowMount, mount } from '@vue/test-utils';
 import LotteryApp from '@/EventLogic/components/LotteryApp.vue';
-import LotteryMessages from '@/EventLogic/components/lottery/LotteryMessages.vue';
+import LotteryMessages from '@/EventLogic/components/LotteryMessages.vue';
 
 import {expect, assert} from 'chai';
 
@@ -12,7 +12,7 @@ describe('LotteryApp.vue', () => {
       propsData: defaultProps
     });
     it('loads deeply', () => {
-      expect(wrapper.find('h1').text()).to.equal('Daily Step Count');
+      expect(wrapper.find('h1').text()).to.equal('Event Name');
     });
   });
 

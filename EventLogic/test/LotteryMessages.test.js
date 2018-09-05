@@ -1,8 +1,8 @@
 import { shallowMount, mount } from '@vue/test-utils';
 import {expect, assert} from 'chai';
-import defaultProps from '../defaultProps';
+import defaultProps from './defaultProps';
 
-import LotteryMessages from '@/EventLogic/components/lottery/LotteryMessages.vue';
+import LotteryMessages from '@/EventLogic/components/LotteryMessages.vue';
 
 describe('LotteryMessages.vue', () => {
   it('component loads without errors', () => {
