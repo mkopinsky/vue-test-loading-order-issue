@@ -1,11 +1,11 @@
 # vue-test-loading-order-issue
 
 There are two components:
-* LotteryApp.vue
-* lottery/LotteryMessages.vue (which is a child component of LotteryApp).
+* components/Parent.vue
+* components/Child.vue
 
-If I run tests with LotteryApp.test.js first, both tests succeed.
-If I change the test order so LotteryMessages.test.js runs first, LotteryApp.test.js fails because it can't find by Component.
+If I run tests with Parent.test.js first, both tests succeed.
+If I change the test order so Child.test.js runs first, Parent.test.js fails with `Error: [vue-test-utils]: find did not return Component, cannot call contains() on empty Wrapper`
 
 To reproduce:
 ```bash

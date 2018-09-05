@@ -2,8 +2,8 @@
   "name": "vue-test-weirdness2",
   "description": "mocha-webpack/vue-test-utils weirdness with finding by component",
   "scripts": {
-    "test:fails": "mocha-webpack --require test/setup.js test/LotteryMessages.test.js test/LotteryApp.test.js",
-    "test:passes": "mocha-webpack --require test/setup.js test/LotteryApp.test.js test/LotteryMessages.test.js"
+    "test:fails": "mocha-webpack --require test/setup.js test/Child.test.js test/Parent.test.js",
+    "test:passes": "mocha-webpack --require test/setup.js test/Parent.test.js test/Child.test.js"
   },
   "dependencies": {
     "vue": "^2.5.16"
