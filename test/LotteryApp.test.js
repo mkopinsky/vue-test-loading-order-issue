@@ -1,6 +1,6 @@
 import { shallowMount, mount } from '@vue/test-utils';
-import LotteryApp from '@/EventLogic/components/LotteryApp.vue';
-import LotteryMessages from '@/EventLogic/components/LotteryMessages.vue';
+import LotteryApp from '@/components/LotteryApp.vue';
+import LotteryMessages from '@/components/LotteryMessages.vue';
 
 import {expect, assert} from 'chai';
 

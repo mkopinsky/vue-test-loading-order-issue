@@ -4,7 +4,6 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
   entry: {
-    EventLogic: path.resolve(__dirname, './EventLogic/main.js')
   },
   output: {
     path: path.resolve(process.cwd(), 'web/dist'),
