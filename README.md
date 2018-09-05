@@ -11,6 +11,6 @@ To reproduce:
 ```bash
 git clone git@github.com:mkopinsky/vue-test-loading-order-issue.git
 npm install
-npm run test:passes # This runs LotteryApp.test.js first, and passes
-npm run test:fails # This runs LotteryMessages.test.js first, and fails
+npm run test:passes # This runs Parent.test.js first, and passes
+npm run test:fails # This runs Child.test.js first, and fails
 ```
